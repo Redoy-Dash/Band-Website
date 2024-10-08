@@ -24,6 +24,22 @@
     .banner-section .container .content p {
         font-size: 12px;
     }
+
+    /* Allbum Section */
+
+    .allbum-section .container .row .col-lg-3 {
+        padding-bottom: 30px;
+    }
+
+    /* Customar Feedback */
+
+    #section {
+        padding: 35px 0;
+    }
+
+    .feedback-section .container .row {
+        gap: 20px;
+    }
 }
 
 @media only screen and (min-width:576px) and (max-width:767px) {
@@ -41,6 +57,21 @@
         top: 140px;
         left: 55px;
     }
+
+    /* Allbum Section */
+
+    .container,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .allbum-section .container .row .col-lg-3 {
+        padding-bottom: 40px;
+    }
+
+    .allbum-section .container .card .card-body h5 {
+        font-size: 2.25rem;
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -57,6 +88,21 @@
         position: absolute;
         top: 135px;
         left: 170px;
+    }
+
+    /* Allbum Section */
+
+    .container,
+    .container-sm {
+        max-width: 900px;
+    }
+
+    .allbum-section .container .row .col-lg-3 {
+        padding-bottom: 40px;
+    }
+
+    .allbum-section .container .card .card-body h5 {
+        font-size: 2.25rem;
     }
 }
 
@@ -86,13 +132,26 @@
     .banner-section .container .content p {
         font-size: 18px;
     }
+
+    /* Customar Feedback Section */
+
+    .feedback-section .container .row {
+        gap: 0px;
+    }
+
+    .feedback-section .container .feed .img img {
+        height: 90%;
+        width: 120%;
+    }
+
+    .feedback-section .container .feed .body {
+        padding-left: 10px;
+    }
 }
 
 @media only screen and (min-width:1200px) and (max-width:1399px) {
 
     /* Navbar */
-
-    /* Banner Section */
 
     /* Banner Section */
 
@@ -112,6 +171,17 @@
 
     .banner-section .container .content p {
         font-size: 18px;
+    }
+
+    /* Customar Feedback Section */
+
+    .feedback-section .container .feed .img img {
+        padding: 0;
+        padding-left: 5px;
+    }
+
+    .feedback-section .container .feed .body {
+        padding-left: 10px;
     }
 
 }

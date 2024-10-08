@@ -69,29 +69,30 @@ h3 {
 }
 
 .banner-section .container .content {
-    width: 700px;
+    width: 900px;
     position: absolute;
-    top: 200px;
+    top: 300px;
     left: 250px;
 }
 
 .banner-section .container .content h2 {
-    font-size: 70px;
+    font-size: 90px;
     color: var(--text-color3);
 }
 
 .banner-section .container .content span {
-    font-size: 40px;
+    font-size: 50px;
     color: var(--text-color4);
 }
 
 .banner-section .container .content p {
     color: var(--text-color);
+    font-size: 20px;
 }
 
-/* Profile Section */
+/* Allbum Section */
 
-.profile-section {}
+.allbum-section {}
 
 /* Customar Feedback Section */
 
@@ -110,6 +111,15 @@ h3 {
 
 .feedback-section .container .feed .body i {
     color: var(--text-color6);
+}
+
+.feedback-section .container .feed .body h5 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.feedback-section .container .feed .body p {
+    margin-bottom: 0;
 }
 
 
