@@ -1,0 +1,119 @@
+@media only screen and (max-width:575px) {
+
+    /* Navbar */
+    .header .navbar .container {
+        max-width: 680px;
+    }
+
+    /* Banner Section */
+
+    .banner-section .container .content {
+        width: 460px;
+        top: 190px;
+        left: 57px;
+    }
+
+    .banner-section .container .content h2 {
+        font-size: 45px;
+    }
+
+    .banner-section .container .content span {
+        font-size: 30px;
+    }
+
+    .banner-section .container .content p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+
+    /* Navbar */
+    .header .navbar .container {
+        max-width: 700px;
+    }
+
+    /* Banner Section */
+
+    .banner-section .container .content {
+        width: 700px;
+        position: absolute;
+        top: 140px;
+        left: 55px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+    /* Navbar */
+    .header .navbar .container {
+        max-width: 900px;
+    }
+
+    /* Banner Section */
+
+    .banner-section .container .content {
+        width: 700px;
+        position: absolute;
+        top: 135px;
+        left: 170px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+
+    /* Navbar */
+    .header .navbar .container {
+        max-width: 1050px;
+    }
+
+    /* Banner Section */
+
+    .banner-section .container .content {
+        width: 800px;
+        top: 190px;
+        left: 195px;
+    }
+
+    .banner-section .container .content h2 {
+        font-size: 85px;
+    }
+
+    .banner-section .container .content span {
+        font-size: 45px;
+    }
+
+    .banner-section .container .content p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+
+    /* Navbar */
+
+    /* Banner Section */
+
+    /* Banner Section */
+
+    .banner-section .container .content {
+        width: 900px;
+        top: 230px;
+        left: 195px;
+    }
+
+    .banner-section .container .content h2 {
+        font-size: 85px;
+    }
+
+    .banner-section .container .content span {
+        font-size: 45px;
+    }
+
+    .banner-section .container .content p {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (min-width:1400px) {}

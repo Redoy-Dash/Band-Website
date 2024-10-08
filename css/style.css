@@ -1,0 +1,147 @@
+/* Custom Color */
+
+:root {
+    --text-color: white;
+    --text-color2: black;
+    --text-color3: rgb(255, 132, 0);
+    --text-color4: rgb(26, 255, 0);
+    --text-color5: rgb(255, 0, 0);
+    --text-color6: gold;
+
+    --hover-color: rgb(255, 136, 0);
+
+
+    --bg-color: black;
+}
+
+/* Common Style */
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--text-color2);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#section {
+    padding: 60px 0;
+}
+
+
+/* Header Section */
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.header .navbar {
+    background-color: var(--bg-color);
+}
+
+.header .container .img img {
+    width: 50%;
+}
+
+.header .container ul li a {
+    color: var(--text-color);
+}
+
+.header .container ul li a:hover {
+    color: var(--hover-color);
+}
+
+/* Banner Section */
+
+.banner-section {
+    position: relative;
+}
+
+.banner-section img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.banner-section .container .content {
+    width: 700px;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+}
+
+.banner-section .container .content h2 {
+    font-size: 70px;
+    color: var(--text-color3);
+}
+
+.banner-section .container .content span {
+    font-size: 40px;
+    color: var(--text-color4);
+}
+
+.banner-section .container .content p {
+    color: var(--text-color);
+}
+
+/* Profile Section */
+
+.profile-section {}
+
+/* Customar Feedback Section */
+
+.feedback-section .container .feed {
+    border: 1px solid var(--text-color2);
+}
+
+.feedback-section .container .feed .img {
+    align-content: center;
+}
+
+.feedback-section .container .feed .img img {
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+.feedback-section .container .feed .body i {
+    color: var(--text-color6);
+}
+
+
+/* Gallery Section */
+
+.gallery-section {}
+
+.gallery-section .container .img img {
+    width: 100%;
+}
+
+/* Footer Section */
+
+.footer-section {
+    background-color: var(--text-color2);
+}
+
+.footer-section .container .copyright h5 {
+    color: var(--text-color);
+}
+
+.footer-section .container .copyright h5 .span-1 {
+    color: var(--text-color3);
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.footer-section .container .copyright h5 .span-2 {
+    color: var(--text-color5);
+    font-size: 25px;
+}
+
+.footer-section .container .copyright h5 hr {
+    color: var(--text-color);
+}
